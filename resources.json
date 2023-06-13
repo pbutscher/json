@@ -5,7 +5,7 @@
 	},
 	{
 		"key" : "totalAppointments",
-		"url" : "https://fisioupload.azurewebsites.net/api/agendamentos/totalizadores",
+		"url" : "https://fisioupload.azurewebsites.net/api/agendamentos/totalizadores"
 	},
 	{
 		"key" : "listAppointments",
