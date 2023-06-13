@@ -1,0 +1,106 @@
+[
+	{
+		"key" : "signin",
+		"url" : "https://fisioupload.azurewebsites.net/api/authenticate/login"
+	},
+	{
+		"key" : "totalAppointments",
+		"url" : "https://fisioupload.azurewebsites.net/api/agendamentos/totalizadores",
+	},
+	{
+		"key" : "listAppointments",
+		"url" : "https://fisioupload.azurewebsites.net/api/agendamentos"
+	},
+	{
+		"key" : "insertAppointment",
+		"url" : "https://fisioupload.azurewebsites.net/api/agendamentos/inclusao"	
+	},
+	{
+		"key" : "updateAppointment",
+		"url" : "https://fisioupload.azurewebsites.net/api/agendamentos/atualizaStatus"		
+	},
+	{
+		"key" : "listPatients",
+		"url" : "https://fisioupload.azurewebsites.net/api/pacientes/nome"		
+	},
+	{
+		"key" : "listTimelineByPatient",
+		"url" : "https://fisioupload.azurewebsites.net/api/LinhasTempo"		
+	},
+	{
+		"key" : "listRecordModel",
+		"url" : "https://fisioupload.azurewebsites.net/api/ModeloProntuarios"
+	},
+	{
+		"key" : "listSpecialty",
+		"url" : "https://fisioupload.azurewebsites.net/api/especialidades"
+	},
+	{
+		"key" : "listPaymentBySpecialty",
+		"url" : "https://fisioupload.azurewebsites.net/api/convenios"
+	},
+	{
+		"key" : "listPlanByPayment",
+		"url" : "https://fisioupload.azurewebsites.net/api/enquadramentos"
+	},
+	{
+		"key" : "listRoomBySpecialty",
+		"url" : "https://fisioupload.azurewebsites.net/api/consultorios"
+	},
+	{
+		"key" : "listRoomAvailable",
+		"url" : "https://fisioupload.azurewebsites.net/api/consultorios/disponibilidade"
+	},
+	{
+		"key" : "listProfessional",
+		"url" : "https://fisioupload.azurewebsites.net/api/profissionais"
+	},
+	{
+		"key" : "listMedicalRecorsByPatient",
+		"url" : "https://fisioupload.azurewebsites.net/api/prontuarios"
+	},
+	{
+		"key" : "insertMedicalRecors",
+		"url" : "https://fisioupload.azurewebsites.net/api/prontuarios"
+	},
+	{
+		"key" : "avisoTempoAtendimento",
+		"url" : "https://fisioupload.azurewebsites.net/api/Prontuarios/tempos"
+	},
+	{
+		"key" : "getPDQBase",
+		"url" : "https://fisioupload.azurewebsites.net/api/pets/base"
+	},
+	{
+		"key" : "postPDQBase",
+		"url" : "https://fisioupload.azurewebsites.net/api/Pets/InsertUpdateBase"
+	},
+	{
+		"key" : "getPDQItem",
+		"url" : "https://fisioupload.azurewebsites.net/api/pets/item"
+	},
+	{
+		"key" : "postPDQItem",
+		"url" : "https://fisioupload.azurewebsites.net/api/pets/InsertUpdateItem"
+	},
+	{
+		"key" : "uploadImage",
+		"url" : "https://fisioupload.azurewebsites.net/api/Files/upload?bucketName=butscher-health-app"
+	},
+	{
+		"url" : "viewImage",
+		"key" : "https://fisioupload.azurewebsites.net/api/Files/get-by-key?bucketName=butscher-health-app"
+	},
+	{
+		"url" : "billingImage",
+		"key" : "https://fisioupload.azurewebsites.net/api/Files/get-all-billing?bucketName=butscher-health-app"
+	},
+	{
+		"url" : "listCID",
+		"key" : "https://fisioupload.azurewebsites.net/api/cid"
+	},
+	{
+		"url" : "listTUSS",
+		"key" : "https://fisioupload.azurewebsites.net/api/tuss"
+	}
+]
