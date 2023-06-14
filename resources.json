@@ -88,19 +88,19 @@
 		"url" : "https://fisioupload.azurewebsites.net/api/Files/upload?bucketName=butscher-health-app"
 	},
 	{
-		"url" : "viewImage",
-		"key" : "https://fisioupload.azurewebsites.net/api/Files/get-by-key?bucketName=butscher-health-app"
+		"key" : "viewImage",
+		"url" : "https://fisioupload.azurewebsites.net/api/Files/get-by-key?bucketName=butscher-health-app"
 	},
 	{
-		"url" : "billingImage",
-		"key" : "https://fisioupload.azurewebsites.net/api/Files/get-all-billing?bucketName=butscher-health-app"
+		"key" : "billingImage",
+		"url" : "https://fisioupload.azurewebsites.net/api/Files/get-all-billing?bucketName=butscher-health-app"
 	},
 	{
-		"url" : "listCID",
-		"key" : "https://fisioupload.azurewebsites.net/api/cid"
+		"key" : "listCID",
+		"url" : "https://fisioupload.azurewebsites.net/api/cid"
 	},
 	{
-		"url" : "listTUSS",
-		"key" : "https://fisioupload.azurewebsites.net/api/tuss"
+		"key" : "listTUSS",
+		"url" : "https://fisioupload.azurewebsites.net/api/tuss"
 	}
 ]
