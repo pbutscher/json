@@ -4,6 +4,10 @@
 		"url" : "https://fisioupload.azurewebsites.net/api/authenticate/login"
 	},
 	{
+		"key" : "reset",
+		"url" : "https://fisioupload.azurewebsites.net/api/authenticate/reset"
+	},
+	{
 		"key" : "totalAppointments",
 		"url" : "https://fisioupload.azurewebsites.net/api/agendamentos/totalizadores"
 	},
